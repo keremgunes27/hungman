@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 16px;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Game Css Start */
+#game-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#game-section .title {
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+#game-section button {
+  margin-bottom: 20px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #000;
+  outline: none;
+  padding: 14px;
+  width: 400px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+#game-section button:hover {
+  background-color: green;
+  color: #fff;
+}
+#game-section .man-image {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 60px;
+  border: 1px solid #000;
+}
+#game-section .man-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+#game-section .words {
+  display: flex;
+  align-items: center;
+}
+#game-section .words li {
+  margin: 0 10px;
+  font-size: 24px;
+  position: relative;
+  padding: 7px 3px;
+}
+#game-section .words li::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+#game-section .wrong-words {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: red;
+}/*# sourceMappingURL=style.css.map */
